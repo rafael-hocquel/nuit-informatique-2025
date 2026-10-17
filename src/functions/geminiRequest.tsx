@@ -3,6 +3,7 @@ import { customPrompt } from "../../config.json";
 
 const geminiRequest = async (prompt: string) => {
   const ai = new GoogleGenAI({
+    // NOTE: the way of accessing the API key is deprecated and should be changed if the project is in use with routes
     apiKey: process.env.NEXT_PUBLIC_GEMINI_API_KEY,
   });
   // PROMPT
@@ -10,7 +11,6 @@ const geminiRequest = async (prompt: string) => {
     customPrompt +
     "Voici le prompt de l'utilisateur, répond y en respectant les consignes précédentes: " +
     prompt;
-  console.log(finalPrompt);
   const response = await ai.models.generateContent({
     model: "gemini-2.5-flash",
     config: {
