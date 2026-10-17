@@ -1,4 +1,5 @@
 # Nuit de l'Informatique 2025 — Les 8 Bits
+*Note : Ce projet a été initialement développé hors de GitHub (instance GitLab interne ou développement local) puis importé ici pour archivage, d'où l'absence d'historique de commits.*
 
 Projet réalisé en une nuit lors de l'édition 2025 de la Nuit de l'Informatique. Le site mêle le sujet principal de sensibilisation autour du **NIRD** (Numérique Inclusif, Responsable et Durable) à plusieurs défis annexes : une interface volontairement frustrante (*bad UI*), des easter eggs cachés et un chatbot programmé pour être le plus inutile possible.
 
